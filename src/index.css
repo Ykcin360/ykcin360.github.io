@@ -13,7 +13,7 @@
 :root {
     --color-dark: #121212;
     --color-bg: #2f4970;
-    --color-bg-variant: #244d61;
+    --color-bg-variant: #233855;
     --color-primary: #75e2ff;
     --color-primary-variant: #5689c0;
     --color-white: #fff;
@@ -32,6 +32,11 @@ html {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+::selection {
+    background-color: var(--color-bg-variant);
+    color: var(--color-white);
 }
 
 body {
